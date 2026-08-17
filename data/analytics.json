@@ -1,0 +1,434 @@
+{
+  "events": [
+    {
+      "id": "1786916537845-8qojsp",
+      "tenant": "test-tenant",
+      "type": "latency",
+      "payload": {
+        "endpoint": "/generate",
+        "ms": 9
+      },
+      "ts": 1786916537845
+    },
+    {
+      "id": "1786916537976-rnz147",
+      "tenant": "test-tenant",
+      "type": "cost",
+      "payload": {
+        "model": "small-model",
+        "cost": 0.00012
+      },
+      "ts": 1786916537976
+    },
+    {
+      "id": "1786916537978-8sbb4a",
+      "tenant": "test-tenant",
+      "type": "latency",
+      "payload": {
+        "endpoint": "/generate",
+        "ms": 70
+      },
+      "ts": 1786916537978
+    },
+    {
+      "id": "1786916999062-fx2ckp",
+      "tenant": "test-tenant",
+      "type": "latency",
+      "payload": {
+        "endpoint": "/generate",
+        "ms": 1
+      },
+      "ts": 1786916999062
+    },
+    {
+      "id": "1786916999080-sa7h8x",
+      "tenant": "test-tenant",
+      "type": "latency",
+      "payload": {
+        "endpoint": "/generate",
+        "ms": 0
+      },
+      "ts": 1786916999080
+    },
+    {
+      "id": "1786917220638-08dm6w",
+      "tenant": "test-tenant",
+      "type": "latency",
+      "payload": {
+        "endpoint": "/generate",
+        "ms": 1
+      },
+      "ts": 1786917220638
+    },
+    {
+      "id": "1786917220729-bhz9g1",
+      "tenant": "test-tenant",
+      "type": "cost",
+      "payload": {
+        "model": "small-model",
+        "cost": 0.00012
+      },
+      "ts": 1786917220729
+    },
+    {
+      "id": "1786917220731-tyw4r2",
+      "tenant": "test-tenant",
+      "type": "latency",
+      "payload": {
+        "endpoint": "/generate",
+        "ms": 75
+      },
+      "ts": 1786917220731
+    },
+    {
+      "id": "1786917347159-rw8a3p",
+      "tenant": "test-tenant",
+      "type": "latency",
+      "payload": {
+        "endpoint": "/generate",
+        "ms": 12
+      },
+      "ts": 1786917347159
+    },
+    {
+      "id": "1786917347246-q721ya",
+      "tenant": "test-tenant",
+      "type": "cost",
+      "payload": {
+        "model": "small-model",
+        "cost": 0.00012
+      },
+      "ts": 1786917347246
+    },
+    {
+      "id": "1786917347248-j6l88u",
+      "tenant": "test-tenant",
+      "type": "latency",
+      "payload": {
+        "endpoint": "/generate",
+        "ms": 69
+      },
+      "ts": 1786917347248
+    },
+    {
+      "id": "1786917409955-cg1k01",
+      "tenant": "test-tenant",
+      "type": "latency",
+      "payload": {
+        "endpoint": "/generate",
+        "ms": 2
+      },
+      "ts": 1786917409955
+    },
+    {
+      "id": "1786917409974-4kg1rg",
+      "tenant": "test-tenant",
+      "type": "latency",
+      "payload": {
+        "endpoint": "/generate",
+        "ms": 1
+      },
+      "ts": 1786917409974
+    },
+    {
+      "id": "1786917508959-5ziop0",
+      "tenant": "test-tenant",
+      "type": "latency",
+      "payload": {
+        "endpoint": "/generate",
+        "ms": 1
+      },
+      "ts": 1786917508959
+    },
+    {
+      "id": "1786917508976-9sastu",
+      "tenant": "test-tenant",
+      "type": "latency",
+      "payload": {
+        "endpoint": "/generate",
+        "ms": 1
+      },
+      "ts": 1786917508976
+    },
+    {
+      "id": "1786917602135-1ryp6b",
+      "tenant": "test-tenant",
+      "type": "latency",
+      "payload": {
+        "endpoint": "/generate",
+        "ms": 1
+      },
+      "ts": 1786917602135
+    },
+    {
+      "id": "1786917602160-j93jo8",
+      "tenant": "test-tenant",
+      "type": "latency",
+      "payload": {
+        "endpoint": "/generate",
+        "ms": 1
+      },
+      "ts": 1786917602160
+    },
+    {
+      "id": "1786917730566-u435wm",
+      "tenant": "test-tenant",
+      "type": "latency",
+      "payload": {
+        "endpoint": "/generate",
+        "ms": 2
+      },
+      "ts": 1786917730566
+    },
+    {
+      "id": "1786917730585-f66r0p",
+      "tenant": "test-tenant",
+      "type": "latency",
+      "payload": {
+        "endpoint": "/generate",
+        "ms": 0
+      },
+      "ts": 1786917730585
+    },
+    {
+      "id": "1786966599984-uv6fz5",
+      "tenant": "test-tenant",
+      "type": "latency",
+      "payload": {
+        "endpoint": "/generate",
+        "ms": 4
+      },
+      "ts": 1786966599984
+    },
+    {
+      "id": "1786966600074-2fpcl4",
+      "tenant": "test-tenant",
+      "type": "cost",
+      "payload": {
+        "model": "small-model",
+        "cost": 0.00012
+      },
+      "ts": 1786966600074
+    },
+    {
+      "id": "1786966600077-iwjs8k",
+      "tenant": "test-tenant",
+      "type": "latency",
+      "payload": {
+        "endpoint": "/generate",
+        "ms": 73
+      },
+      "ts": 1786966600077
+    },
+    {
+      "id": "1786966677367-n0f0yn",
+      "tenant": "test-tenant",
+      "type": "latency",
+      "payload": {
+        "endpoint": "/generate",
+        "ms": 2
+      },
+      "ts": 1786966677367
+    },
+    {
+      "id": "1786966677388-g9xj51",
+      "tenant": "test-tenant",
+      "type": "latency",
+      "payload": {
+        "endpoint": "/generate",
+        "ms": 1
+      },
+      "ts": 1786966677388
+    },
+    {
+      "id": "1786967904094-b9cm7n",
+      "tenant": "test-tenant",
+      "type": "latency",
+      "payload": {
+        "endpoint": "/generate",
+        "ms": 1
+      },
+      "ts": 1786967904094
+    },
+    {
+      "id": "1786967904235-yox157",
+      "tenant": "test-tenant",
+      "type": "cost",
+      "payload": {
+        "model": "small-model",
+        "cost": 0.00012
+      },
+      "ts": 1786967904235
+    },
+    {
+      "id": "1786967904236-o2cgz1",
+      "tenant": "test-tenant",
+      "type": "latency",
+      "payload": {
+        "endpoint": "/generate",
+        "ms": 69
+      },
+      "ts": 1786967904236
+    },
+    {
+      "id": "1786967993723-iabw9w",
+      "tenant": "test-tenant",
+      "type": "latency",
+      "payload": {
+        "endpoint": "/generate",
+        "ms": 1
+      },
+      "ts": 1786967993724
+    },
+    {
+      "id": "1786967993750-5fjm1m",
+      "tenant": "test-tenant",
+      "type": "latency",
+      "payload": {
+        "endpoint": "/generate",
+        "ms": 1
+      },
+      "ts": 1786967993750
+    },
+    {
+      "id": "1786968072352-m0devl",
+      "tenant": "test-tenant",
+      "type": "latency",
+      "payload": {
+        "endpoint": "/generate",
+        "ms": 1
+      },
+      "ts": 1786968072352
+    },
+    {
+      "id": "1786968072375-ydzfuw",
+      "tenant": "test-tenant",
+      "type": "latency",
+      "payload": {
+        "endpoint": "/generate",
+        "ms": 0
+      },
+      "ts": 1786968072375
+    },
+    {
+      "id": "1786968119782-n85hsd",
+      "tenant": "test-tenant",
+      "type": "latency",
+      "payload": {
+        "endpoint": "/generate",
+        "ms": 0
+      },
+      "ts": 1786968119782
+    },
+    {
+      "id": "1786968119799-lg3sd5",
+      "tenant": "test-tenant",
+      "type": "latency",
+      "payload": {
+        "endpoint": "/generate",
+        "ms": 0
+      },
+      "ts": 1786968119799
+    },
+    {
+      "id": "1786968388774-bf5023",
+      "tenant": "default",
+      "type": "latency",
+      "payload": {
+        "endpoint": "/credentials",
+        "ms": 1
+      },
+      "ts": 1786968388774
+    },
+    {
+      "id": "1786969057605-53wrlu",
+      "tenant": "test-tenant",
+      "type": "latency",
+      "payload": {
+        "endpoint": "/generate",
+        "ms": 9
+      },
+      "ts": 1786969057605
+    },
+    {
+      "id": "1786969057695-o5sxi9",
+      "tenant": "test-tenant",
+      "type": "cost",
+      "payload": {
+        "model": "small-model",
+        "cost": 0.00012
+      },
+      "ts": 1786969057695
+    },
+    {
+      "id": "1786969057698-c1b0y2",
+      "tenant": "test-tenant",
+      "type": "latency",
+      "payload": {
+        "endpoint": "/generate",
+        "ms": 77
+      },
+      "ts": 1786969057698
+    },
+    {
+      "id": "1786970240528-et40ky",
+      "tenant": "test-tenant",
+      "type": "latency",
+      "payload": {
+        "endpoint": "/generate",
+        "ms": 1
+      },
+      "ts": 1786970240528
+    },
+    {
+      "id": "1786970240607-lg6nup",
+      "tenant": "test-tenant",
+      "type": "cost",
+      "payload": {
+        "model": "small-model",
+        "cost": 0.00012
+      },
+      "ts": 1786970240607
+    },
+    {
+      "id": "1786970240610-6oq41r",
+      "tenant": "test-tenant",
+      "type": "latency",
+      "payload": {
+        "endpoint": "/generate",
+        "ms": 65
+      },
+      "ts": 1786970240610
+    },
+    {
+      "id": "1786970269294-ih8ofx",
+      "tenant": "default",
+      "type": "latency",
+      "payload": {
+        "endpoint": "/prometheus",
+        "ms": 9
+      },
+      "ts": 1786970269295
+    },
+    {
+      "id": "1786970287965-see551",
+      "tenant": "default",
+      "type": "latency",
+      "payload": {
+        "endpoint": "/admin",
+        "ms": 2
+      },
+      "ts": 1786970287965
+    },
+    {
+      "id": "1786970294880-k3rdal",
+      "tenant": "test-tenant",
+      "type": "latency",
+      "payload": {
+        "endpoint": "/generate",
+        "ms": 1
+      },
+      "ts": 1786970294880
+    }
+  ]
+}

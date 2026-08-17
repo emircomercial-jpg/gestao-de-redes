@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Admin - Credenciais</title>
+  <style>body{font-family:Arial,Helvetica,sans-serif;margin:20px} label{display:block;margin:8px 0}</style>
+  <script>
+    async function save(){
+      const tenant = document.getElementById('tenant').value;
+      const platform = document.getElementById('platform').value;
+      const data = document.getElementById('data').value;
+      const token = document.getElementById('admintoken').value;
+      try{
+        const resp = await fetch('/credentials', { method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({ tenant, platform, data: JSON.parse(data), adminToken: token }) });
+        const j = await resp.json();
+        alert(JSON.stringify(j));
+      }catch(e){ alert('failed: '+e.message); }
+    }
+  </script>
+</head>
+<body>
+  <h1>Admin - Gerenciar Credenciais</h1>
+  <label>Tenant: <input id="tenant" value="default" /></label>
+  <label>Platform: <input id="platform" value="linkedin" /></label>
+  <label>Data (JSON): <textarea id="data" rows="6" cols="60">{"accessToken":"sk_...","authorUrn":"urn:li:person:..."}</textarea></label>
+  <label>Admin token: <input id="admintoken" type="password" /></label>
+  <button onclick="save()">Salvar credenciais</button>
+</body>
+</html>
