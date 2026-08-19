@@ -17,8 +17,24 @@ jobs:
           node-version: '20'
       - name: Install
         run: npm ci
+      - name: Start server
+        run: |
+          node src/server.js &
+          echo $! > server.pid
+          for i in $(seq 1 30); do
+            if curl -sf http://localhost:3000/ > /dev/null; then
+              echo "Server is up"
+              exit 0
+            fi
+            sleep 1
+          done
+          echo "Server failed to start in time" >&2
+          exit 1
       - name: Run tests
         run: npm test --silent
+      - name: Stop server
+        if: always()
+        run: kill $(cat server.pid) 2>/dev/null || true
 
   build-image:
     runs-on: ubuntu-latest
